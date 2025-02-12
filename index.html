@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <title>Booksaw online shop</title>
+
+</head>
+<body>
+    <!-- ------------------------------navbar section start --------------------------------- -->
+    <div id="header-wrap">
+		<div class="top-content">
+			<div class="container-fluid">
+			  <div class="row">
+				<div class="col-md-6">
+				 <div class="social-links">
+					<i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+				 </div>
+				</div>
+					<div class="col-md-6">
+						<div class="right-element">
+							<a href="#" class="user-account for-buy"><i class="fa-solid fa-user"></i><span> Account</span></a>
+							<a href="#" class="cart for-buy"><i class="fa-solid fa-cart-shopping"></i><span>Cart</span></a>
+                            <input class="search-input" type="text" placeholder="🔍 Search"></b></a>            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+						</div>
+					</div>
+			 </div>
+            </div>
+		</div>
+	</div><!--top-content end-->
+
+    <nav class="navbar navbar-expand-lg bg-body-white">
+        <div class="container-fluid">					
+				<a href="index.html"><img src="images/main-logo.png" alt="logo"></a>
+        </div>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 PAGES
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#about">ABOUT</a></li>
+                                  <li><a class="dropdown-item" href="#quotation">QUOTE</a></li>
+                                  <li><a class="dropdown-item" href="#articles">BLOG</a></li>
+                                  <li><a class="dropdown-item" href="#articles">POST SINGLE</a></li>
+                                  <li><a class="dropdown-item" href="#ourstore">OUR STORE</a></li>
+                                  <li><a class="dropdown-item" href="#best-selling">PRODUCT SINGLE</a></li>
+                                  <li><a class="dropdown-item" href="#about">CONTACT</a></li>
+                                </ul>
+                              </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#featured">FEATURED</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#popular">POPULAR</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#offer">OFFER</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#articles">ARTICLES</a>
+                          </li>                         
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#download">DOWNLOAD APP</a>
+                            </li>
+                        </ul>
+                    </div>
+    </nav>
+                
+                  <!-- ------------------------------navbar section ends --------------------------------- -->
+                  <!-- ------------------------------Home starts --------------------------------- -->
+
+		<div class="container-fluid home-page mx-100" id="home">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner carousel-home">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                        <h2 class="home-text pb-3">LIFE OF THE<br>WILD<br></h2>
+                        <p class="subpara">A captivating journey into the heart of nature, this book explores the untamed beauty of the wilderness, 
+                            the creatures that inhabit it, and the delicate balance of survival. Through vivid storytelling and breathtaking imagery, 
+                            Life of the Wild takes readers on an adventure through forests, mountains, and vast landscapes, 
+                            celebrating the raw power and serenity of the natural world.</p>
+                           <button class="btn"> Read More -> </button>  
+                      </div>
+                      <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                        <div class="image">
+                          <img src="images/main-banner1.jpg" alt="" class="img-fluid banner_img">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                        <h2 class="home-text pb-3">BIRDS GONNA <br> BE HAPPY</h2>
+                        <p class="subpara">A heartwarming tale about resilience and freedom, Birds Gonna Be Happy follows the journey of a small 
+                            bird who refuses to let life's storms keep it from singing. With poetic prose and vivid imagery, this uplifting story 
+                            reminds us that no matter the challenges we face, happiness is always within reach.</p>
+                          <button class="btn"> Read More <i class="fa-solid fa-arrow-right"></i> </button> 
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                      <img src="images/main-banner2.jpg" alt="" class="img-fluid banner_img">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+        </div>
+
+	<section id="client-holder" data-aos="fade-up">
+		<div class="container">
+			<div class="row">
+				<div class="inner-content">
+					<div class="logo-wrap">
+						<div class="grid">
+							<a href="#"><img src="images/client-image1.png" alt="client"></a>
+							<a href="#"><img src="images/client-image2.png" alt="client"></a>
+							<a href="#"><img src="images/client-image3.png" alt="client"></a>
+							<a href="#"><img src="images/client-image4.png" alt="client"></a>
+							<a href="#"><img src="images/client-image5.png" alt="client"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+   <!-----------------------------------home end----------------------------------------------> 
+   <!-----------------------------------featured start------------------------------------------------------>
+
+   <section id="featured" class="py-5 my-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header align-center">
+						<div class="title">
+							<span>SOME QUALITY ITEMS</span>
+						</div>
+						<h2 class="section-title">Featured Books</h2>
+					</div>
+
+					<div class="product-list" data-aos="fade-up">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/product-item1.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figure class="fig-caption">
+										<h3>Simple way of piece life</h3>
+                                    </figure>
+										<span>Armor Ramsey</span>
+										<div class="item-price">$ 40.00</div>									
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/product-item2.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<div class="fig-caption">
+										<h3>Great travel at desert</h3>
+                                    </div>
+										<span>Sanchit Howdy</span>
+										<div class="item-price">$ 38.00</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/product-item3.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<div class="fig-caption">
+										<h3>The lady beauty Scarlett</h3>
+                                    </div>
+										<span>Arthur Doyle</span>
+										<div class="item-price">$ 45.00</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/product-item4.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+								 <div class="fig-caption">
+										<h3>Once upon a time</h3>
+                                 </div>
+										<span>Klien Marry</span>
+										<div class="item-price">$ 35.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row p-4">
+				<div class="col-md-12">
+					<div class="btn-wrap align-right">
+						<a href="#" class="btn-accent-arrow"> View all Products  <i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  <section id="best-selling" class="leaf-pattern-overlay">
+		<div class="corner-pattern-overlay"></div>
+		<div class="container-sell">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6">
+							<figure class="products-thumb">
+								<img src="images/single-image.jpg" alt="book" class="single-image">
+							</figure>
+						</div>
+						<div class="col-md-6">
+							<div class="product-entry">
+								<h2 class="section-title divider">Best Selling Book</h2><hr>
+								<div class="products-content">
+									<div class="title">By Timbur Hood</div>
+									<h3 class="item-title">Birds gonna be happy</h3>
+									<p class="subpara1">A heartwarming tale about resilience and freedom, Birds Gonna Be Happy follows the journey of a small 
+                    bird who refuses to let life's storms keep it from singing. With poetic prose and vivid imagery, this uplifting story 
+                    reminds us that no matter the challenges we face, happiness is always within reach.</p>               
+									<div class="item-price1">$ 45.00</div>
+										<button class="btn"> Shop it now  <i class="fa-solid fa-arrow-right"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!----------------------------------------featured end----------------------------------------->
+<!----------------------------------popular start----------------------------------------------->
+<section id="popular" class="bookshelf py-5 my-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-header align-center">
+					<div class="title">
+						<span>SOME QUALITY ITEMS</span>
+					</div>
+					<h2 class="section-title">Popular Books</h2>
+				</div>
+				<div class="menu-heading d-flex gap-4 justify-content-center mt-4">
+					<p  class="hover-underline-color">All Genre</p>
+					<p  class="hover-underline-color">Business</p>
+					<p  class="hover-underline-color">Technology</p>
+					<p  class="hover-underline-color">Romantic</p>
+					<p  class="hover-underline-color">Adventure</p>
+					<p  class="hover-underline-color">Fictional</p>
+				</div>
+				<div class="tab-content">
+					<div id="all-genre" data-tab-content class="active">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item1.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Portrait photography</h3>
+										<span>Adam Silber</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item2.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Once upon a time</h3>
+										<span>Klien Marry</span>
+										<div class="item-price">$ 35.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item3.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Tips of simple lifestyle</h3>
+										<span>Bratt Smith</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item4.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Just felt from outside</h3>
+										<span>Nicole Wilson</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+						</div>
+						<div class="row">
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item5.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Peaceful Enlightment</h3>
+										<span>Marmik Lama</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item6.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Great travel at desert</h3>
+										<span>Sanchit Howdy</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item7.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Life among the pirates</h3>
+										<span>Armor Ramsey</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="product-item">
+									<div class="image-container">
+										<img src="images/tab-item8.jpg" alt="Book Cover">
+										<div class="add-to-cart-btn">Add to Cart</div>
+									</div>
+									<figcaption>
+										<h3 class="fig-caption">Simple way of piece life</h3>
+										<span>Armor Ramsey</span>
+										<div class="item-price">$ 40.00</div>
+									</figcaption>
+								</div>
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="quotation" class="align-center pb-5 mb-5">
+	<div class="inner-content">
+		<h2 class="section-title divider">Quote of the day</h2><hr>
+		<div class="quote">
+			<q>“The more that you read, the more things you will know. The more that you learn, the more places
+				you'll go.”</q>
+			<div class="author-name">Dr. Seuss</div>
+		</div>
+	</div>
+</section>
+<!----------------------------------popular end----------------------------------------------->
+<!----------------------------------offer start----------------------------------------------->
+
+<section id="offer" class="py-5 my-5">
+	<div class="container-offer">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-header align-center">
+					<div class="title">
+						<span>GRAB YOUR OPPORTUNITY</span>
+					</div>
+					<h2 class="section-title">Books with offer</h2>
+				</div>
+				<div class="product-list" data-aos="fade-up">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="product-item">
+								<div class="image-container">
+									<img src="images/product-item5.jpg" alt="Book Cover">
+									<div class="add-to-cart-btn">Add to Cart</div>
+								</div>
+								<figure class="fig-caption">
+									<h3>Simple way of piece life</h3>
+								</figure>
+									<span>Armor Ramsey</span>
+									<div class="item-price">
+										<p><del> $ 50 </del>
+									   <span class="text-success"> $ 40 </span></p>
+									  </div>								
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product-item">
+								<div class="image-container">
+									<img src="images/product-item6.jpg" alt="Book Cover">
+									<div class="add-to-cart-btn">Add to Cart</div>
+								</div>
+								<div class="fig-caption">
+									<h3>Great travel at desert</h3>
+								</div>
+									<span>Sanchit Howdy</span>
+									<div class="item-price">
+										<p><del> $ 38 </del>
+									   <span class="text-success"> $ 30 </span></p>
+									  </div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product-item">
+								<div class="image-container">
+									<img src="images/product-item7.jpg" alt="Book Cover">
+									<div class="add-to-cart-btn">Add to Cart</div>
+								</div>
+								<div class="fig-caption">
+									<h3>The lady beauty Scarlett</h3>
+								</div>
+									<span>Arthur Doyle</span>
+									<div class="item-price">
+										<p><del> $ 45 </del>
+									   <span class="text-success"> $ 35 </span></p>
+									  </div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product-item">
+								<div class="image-container">
+									<img src="images/product-item8.jpg" alt="Book Cover">
+									<div class="add-to-cart-btn">Add to Cart</div>
+								</div>
+							 <div class="fig-caption">
+									<h3>Once upon a time</h3>
+							 </div>
+									<span>Klien Marry</span>
+									<div class="item-price">
+										<p><del> $ 35 </del>
+									   <span class="text-success"> $ 25 </span></p>
+									  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!----------------------------------offer end----------------------------------------------->
+
+<section id="subscribe">
+	<div class="container-sub">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="title-element">
+							<h2 class="section-title divider">Subscribe to our newsletter</h2>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="sub-content" data-aos="fade-up">
+							<p>Join our BOOKSAW community and stay updated with:<br>
+								✔ Exclusive Discounts & Deals - Get special offers on your favorite books.<br>
+								✔ New Arrivals & Bestsellers - Be the first to discover trending books.<br>
+								✔ Personalized Recommendations - Get book suggestions tailored to your interests.<br>
+								✔ Member-Only Perks - Enjoy early access to sales and limited-edition releases.<br>
+								
+								📩 Subscribe now and get a special welcome discount!.</p>
+							<form id="form">
+								<input type="text" name="email" placeholder="Enter your email addresss here">
+								<button class="btn-sub">
+									<span>SEND</span>
+									<i class="fa-solid fa-paper-plane"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="articles" class="py-5 my-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-header align-center">
+					<div class="title">
+						<span>Read our articles</span>
+					</div>
+					<h2 class="section-title">Latest Articles</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<article class="column" data-aos="fade-up">
+							<figure>
+								<a href="#" class="image-hvr-effect">
+									<img src="images/post-img1.jpg" alt="post" class="post-image">
+								</a>
+							</figure>
+							<div class="post-item">
+								<div class="meta-date">Mar 30, 2021</div>
+								<h3 class="head1">Reading books always makes the moments happy</h3>
+								<div class="links-element">
+									<div class="col-lg-3">INSPIRATION </div>
+									<div class="social-links">  
+										<i class="  fa-brands fa-square-facebook"></i>
+										<i class="  fa-brands fa-instagram"></i>
+										<i class="  fa-brands fa-twitter"></i>
+										<i class="  fa-brands fa-linkedin"></i>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-md-4">
+						<article class="column" data-aos="fade-up" data-aos-delay="200">
+							<figure>
+								<a href="#" class="image-hvr-effect">
+									<img src="images/post-img2.jpg" alt="post" class="post-image">
+								</a>
+							</figure>
+							<div class="post-item">
+								<div class="meta-date">Mar 29, 2021</div>
+								<h3 class="head1">Reading books always makes the moments happy</h3>
+								<div class="links-element">
+									<div class="col-lg-3">INSPIRATION </div>
+									<div class="social-links">
+										<i class="fa-brands fa-square-facebook"></i>
+										<i class="fa-brands fa-instagram"></i>
+										<i class="fa-brands fa-twitter"></i>
+										<i class="fa-brands fa-linkedin"></i>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-md-4">
+						<article class="column" data-aos="fade-up" data-aos-delay="400">
+							<figure>
+								<a href="#" class="image-hvr-effect">
+									<img src="images/post-img3.jpg" alt="post" class="post-image">
+								</a>
+							</figure>
+							<div class="post-item">
+								<div class="meta-date">Feb 27, 2021</div>
+								<h3 class="head1">Reading books always makes the moments happy</h3>
+								<div class="links-element">
+									<div class="col-lg-3">INSPIRATION </div>
+									<div class="social-links">
+									<i class="fa-brands fa-square-facebook"></i>
+									<i class="fa-brands fa-instagram"></i>
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-linkedin"></i>
+									</div></div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="read">
+                <button class="btn" > READ ALL ARTICLES <i class="fa-solid fa-arrow-right"></i></button></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!----------------------------------articles end----------------------------------------------->
+<!----------------------------------download app start---------------------------------------------->
+
+<section id="download" class="download-app">
+	<div class="corner-pattern-overlay"></div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="row">
+
+					<div class="col-md-5">
+						<figure>
+							<img src="images/device.png" alt="phone" class="single-image">
+						</figure>
+					</div>
+
+					<div class="col-md-7">
+						<div class="app-info">
+							<h2 class="section-title divider">Download our app now !</h2>
+							<p>Discover a world of books at your fingertips! With our BOOKSAW app, you can:<br>
+								✔ Browse & Buy - Explore thousands of books across all genres.<br>
+								✔ Exclusive Deals - Get special discounts and early access to new arrivals.<br>
+								✔ Seamless Reading - Purchase eBooks and read anytime, anywhere.<br>
+								✔ Personalized Recommendations - Find books tailored to your taste.<br>
+								✔ Fast & Secure Checkout - Enjoy hassle-free payments and quick delivery.<br>
+								
+								📥 Download now and start your reading journey today!</p>
+							<div class="google-app">
+								<img src="images/google-play.jpg" alt="google play">
+								<img src="images/app-store.jpg" alt="app store">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer">
+	<div class="container-footer">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="footer-item">
+					<div class="company-brand">
+						<img src="images/main-logo.png" alt="logo" class="footer-logo">
+						<div class="para">
+						<p>Discover a vast collection of books across all genres. Shop effortlessly, 
+							enjoy exclusive deals, and get your favorite reads delivered to your doorstep.</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="footer-menu">
+					<h5>About Us</h5>
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a href="#">vision</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">articles </a>
+						</li>
+						<li class="menu-item">
+							<a href="#">careers</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">service terms</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">donate</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="footer-menu">
+					<h5>Discover</h5>
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a href="#">Home</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Books</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Authors</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Subjects</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Advanced Search</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="footer-menu">
+					<h5>My account</h5>
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a href="#">Sign In</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">View Cart</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">My Wishtlist</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Track My Order</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="footer-menu">
+					<h5>Help</h5>
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a href="#">Help center</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Report a problem</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Suggesting edits</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Contact us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="footer-bottom">
+	<div class="container-footer">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="copyright">
+					<div class="row">
+						<div class="col-md-6">
+							<p>© 2022 All rights reserved. Free HTML Template by <a
+									href="https://www.templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
+						</div>
+						<div class="col-md-6">
+							<div class="social-links align-right">
+									<i class="fa-brands fa-square-facebook"></i>
+									<i class="fa-brands fa-instagram"></i>
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-linkedin"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

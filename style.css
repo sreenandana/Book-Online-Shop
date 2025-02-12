@@ -1,0 +1,207 @@
+.top-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(232, 228, 228);
+}
+.search-input{
+    width: 100px;
+    border-radius: 10px;
+    font-size: small;
+}
+.container-fluid{
+    margin-top: 20px;
+}
+.nav-item{
+    margin-top: 20px;
+    padding-left: 90px;  
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar-nav a {
+    text-decoration: none;
+    color: rgb(86, 81, 81);
+    padding: 6px 13px;
+    transition: color 0.5s ease;
+    font-size: 15px;
+}
+  /* Hover effect */
+.navbar-nav a:hover {
+    color : rgb(248, 240, 85); /* Change text color to blue on hover */
+}
+.navbar-nav a:active{
+    color: rgb(248, 240, 85); /* Change text color to blue on hover */
+}
+.dropdown-menu a:active{
+    background-color: rgb(248, 240, 85);
+}
+.navbar-toggler {
+    border: none; 
+    outline: none;
+}
+.home-text{
+    margin-top: 40px;
+    font-size: 60px;
+}
+.btn{
+    justify-content: center;
+    border-color:rgb(159, 71, 71) ;
+    color: rgb(159, 71, 71);
+}
+.home-page{
+    background-color: rgb(254, 236, 236);
+}
+.logo-wrap{
+    background-color: rgb(204, 202, 202);
+    margin-top: 20px;
+}
+.title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.fig-caption{
+    margin-top: 15px;
+    font-family: prata;
+    color: #b49a84;
+}
+.item-price{
+    font-size: 20px;
+    font-family: prata;
+    color: #b49a84;
+    margin-bottom: 15px;
+}
+.container-sell{
+    margin-top: 10px;
+    background-color: #eeedec;
+}
+.product-entry{
+    margin-top: 15px;
+}
+.item-title{
+    font-family: "Prata", Georgia, serif;
+    text-align: center;
+}
+.subpara1{
+    text-align: center;
+    color: darkgray;
+}
+.item-price1{
+    text-align: center;
+    font-size: 20px;
+    font-family: prata;
+    color: #b49a84;
+    margin-bottom: 10px;
+}
+.menu-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.hover-underline-color {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.hover-underline-color::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: black; /* Default underline color */
+    transition: background-color 0.3s ease;
+}
+.hover-underline-color:hover::after {
+    background-color: rgb(198, 175, 0); /* Change underline color on hover */
+}
+.image-container {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.image-container img {
+    width: 100%;
+    display: block;
+}
+.add-to-cart-btn {
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: left 0.3s ease-in-out;
+    cursor: pointer;
+}
+.image-container:hover .add-to-cart-btn {
+    left: 0;
+}
+.quote{
+    margin-top: 20px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(144, 144, 144);
+}
+.author-name{
+    margin-top: 15px;
+    text-align: center;
+    font-family: prata;
+    font-size: 1.4em;
+}
+.container-offer{
+    background-color: #eeedec;
+}
+.container-sub{
+    background-color: beige;
+}
+.title-element{
+    margin-top: 50px;
+}
+.btn-sub{
+    font-weight: bold;
+}
+.sub-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.meta-date {
+    margin-bottom: 10px;
+    color: rgb(145, 128, 0);
+}
+.head1{
+    font-weight: bold;
+    font-family: prata;
+}
+.read{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.download-app{
+    background-color: #eeedec;
+}
+.app-info{
+    margin-top: 40px;
+}
+.google-app{
+    margin-top: 40px;
+}
+.container-footer{
+    margin-top: 20px;
+}
+.para{
+    margin-top: 20px;
+}
